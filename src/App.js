@@ -1,5 +1,7 @@
-import logo from './platzi.webp';
-import './App.css';
+import { TodoCounter } from './TodoCounter';
+import { TodoSearch } from './TodoSearch';
+import { TodoList } from './TodoList';
+//import './App.css';
 
 function App() {
   return (
@@ -15,10 +17,11 @@ function App() {
         <TodoItem/>
       </TodoList>
       
-      <CreateTodoButtom/>
+      {/*<CreateTodoButtom/>*/}
     </div>
   );
 }
+
 
 function TodoItem(){
   return(
